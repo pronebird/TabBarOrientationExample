@@ -14,7 +14,6 @@
 		5813FAFF1A2CB47900CD17FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5813FAFD1A2CB47900CD17FC /* LaunchScreen.xib */; };
 		5813FB0B1A2CB47900CD17FC /* TabBarOrientationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5813FB0A1A2CB47900CD17FC /* TabBarOrientationExampleTests.m */; };
 		5813FB191A2CB6C800CD17FC /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5813FB181A2CB6C800CD17FC /* TabBarController.m */; };
-		5813FB1C1A2CC7C900CD17FC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5813FB1B1A2CC7C900CD17FC /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,6 @@
 		5813FB0A1A2CB47900CD17FC /* TabBarOrientationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarOrientationExampleTests.m; sourceTree = "<group>"; };
 		5813FB171A2CB6C800CD17FC /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		5813FB181A2CB6C800CD17FC /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
-		5813FB1A1A2CC7C900CD17FC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5813FB1B1A2CC7C900CD17FC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +85,6 @@
 				5813FAF01A2CB47900CD17FC /* AppDelegate.m */,
 				5813FB171A2CB6C800CD17FC /* TabBarController.h */,
 				5813FB181A2CB6C800CD17FC /* TabBarController.m */,
-				5813FB1A1A2CC7C900CD17FC /* SecondViewController.h */,
-				5813FB1B1A2CC7C900CD17FC /* SecondViewController.m */,
 				5813FAF81A2CB47900CD17FC /* Main.storyboard */,
 				5813FAFB1A2CB47900CD17FC /* Images.xcassets */,
 				5813FAFD1A2CB47900CD17FC /* LaunchScreen.xib */,
@@ -224,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5813FB1C1A2CC7C900CD17FC /* SecondViewController.m in Sources */,
 				5813FAF11A2CB47900CD17FC /* AppDelegate.m in Sources */,
 				5813FB191A2CB6C800CD17FC /* TabBarController.m in Sources */,
 				5813FAEE1A2CB47900CD17FC /* main.m in Sources */,
