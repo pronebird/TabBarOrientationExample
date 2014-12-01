@@ -31,10 +31,11 @@ static const NSInteger kPortraitOnlyTabIndex = 1;
 	[UIViewController attemptRotationToDeviceOrientation];
 
 	if([self.viewControllers indexOfObject:viewController] == kPortraitOnlyTabIndex) {
-		if([[UIDevice currentDevice] respondsToSelector:@selector(setOrientation:)]) {
+		SEL sel = NSSelectorFromString(@"setOrientation:");
+		if([[UIDevice currentDevice] respondsToSelector:sel]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-			[[UIDevice currentDevice] performSelector:NSSelectorFromString(@"setOrientation:") withObject:(__bridge id)((void*)UIInterfaceOrientationPortrait)];
+			[[UIDevice currentDevice] performSelector:sel withObject:(__bridge id)((void*)UIInterfaceOrientationPortrait)];
 #pragma clang diagnostic pop
 		}
 	}
